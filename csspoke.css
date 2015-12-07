@@ -1,0 +1,163 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.begintext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.begintext h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+a {
+    color: black;
+}
+
+hr {
+    color: black;
+}
+
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/pokemon.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.starters {
+  background: #444;
+  padding: 0px 0px 200px 0px;
+  color: #ffffff;
+}
+
+.starter-item {
+  margin-bottom: 15px;
+}
+
+.starter-img {
+    background-image: url(../img/pika.png); 
+    background-repeat: no-repeat; 
+    width:140px; 
+    height:140px; 
+    border-radius: 70px;
+	border:3px solid #fff;
+    
+} 
+
+.starter-img2 {
+    background-image: url(../img/luc.png); 
+    background-repeat: no-repeat; 
+    width:140px; 
+    height:140px; 
+    border-radius: 70px;
+	border:3px solid #fff;
+    
+} 
+
+.starter-img3 {
+    background-image: url(../img/char.png); 
+    background-repeat: no-repeat; 
+    width:140px; 
+    height:140px; 
+    border-radius: 70px;
+	border:3px solid #fff;
+    
+} 
+
+.starter-img4 {
+    background-image: url(../img/Bulbas.png); 
+    background-repeat: no-repeat; 
+    width:140px; 
+    height:140px; 
+    border-radius: 70px;
+	border:3px solid #fff;
+    
+} 
+
+i.starter-icon {
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+
+
+.slider {
+    position:relative;
+    left: -67px;
+}
+
+.slider img {
+    position: absolute;
+    width:1300px;
+    height:735px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #444;
+    border-radius: 18px;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  12.5% {
+    opacity:1;
+  }
+  16.5% {
+    opacity:0;
+  }
+  96% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+  
+}
+
+.slider img:nth-child(10) {
+  animation: xfade 24s 0s infinite;
+}
+.slider img:nth-child(9) {
+  animation: xfade 24s 1s infinite;
+}
+.slider img:nth-child(8) {
+  animation: xfade 24s 2.5s infinite;
+}
+.slider img:nth-child(7) {
+  animation: xfade 24s 4.5s infinite;
+}
+.slider img:nth-child(6) {
+  animation: xfade 24s 7s infinite;
+}
+.slider img:nth-child(5) {
+  animation: xfade 24s 9.5s infinite;
+}
+.slider img:nth-child(4) {
+  animation: xfade 24s 12.5s infinite;
+}
+.slider img:nth-child(3) {
+  animation: xfade 24s 15s infinite;
+}
+.slider img:nth-child(2) {
+  animation: xfade 24s 18s infinite;
+}
+.slider img:nth-child(1) {
+  animation: xfade 24s 21s infinite;
+}
